@@ -1,0 +1,97 @@
+/* Import del carattere */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tutti i div figli diretti di body */
+
+body>div{
+  width: 1200px;
+  height: 860px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* Tutti img figli diretti di header */
+header>img{
+  display: block;
+  height: 100px;
+  margin: auto;
+  padding-top: 130px;
+  font-weight: 500;
+}
+
+/* Tutti i div figli diretti di header */
+header>div{
+  text-align: center;
+  color: #00ff00;
+  font-size: 30px;
+}
+
+nav{
+  background-color: #00ff00;
+  padding-top: 10px;
+  height: 35px;
+  margin: 0px 100px 0 100px;
+}
+
+.menù{
+  text-align: center;
+  margin-top: auto;
+}
+
+main{
+  margin-left: 100px;
+}
+
+.scooter{
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Tutti gli span con padre div */
+div span{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.address, .charge-status{
+  font-weight: 300;
+  font-size: 8;
+}
+
+/* Inserisce freccia verso destra code:"\21A6"*/
+.address:before{
+  content: "\21A6";
+}
+
+/* Linee visive delle cariche degli scooter */
+.charge1, .charge2, .charge3{
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.charge1{
+  background-color: orange;
+  width: 350px;
+}
+
+.charge2{
+  background-color: #00ff00;
+  width: 600px;
+}
+
+.charge3{
+  background-color: #f94b4b;
+  width: 145px;
+}
